@@ -1,0 +1,310 @@
+*{
+    margin: 0%;
+    padding:0%;
+}
+body{
+font-family:    system,-apple-system,BlinkMacSystemFont,'Segoe UI','Segoe WP',Roboto,Ubuntu,Oxygen,Cantarell,'Fira Sans','Helvetica Neue',Helvetica,'Lucida Grande','Droid Sans',Tahoma,'Microsoft Sans Serif',sans-serif;
+background:ghostwhite;
+}
+
+header{
+  height:150px;
+  background: linear-gradient(to right,#cb11ab 0,#481173 100%) no-repeat;
+
+}
+
+.row{
+  width: 50%;
+  position: relative;
+  left:20px;
+  color:lightgray;
+}
+
+
+.header-top{
+  margin-left: 23%;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  color:lightgray;
+}
+
+.text{    
+  margin-top: 3%;
+  
+}
+.text-other{
+  margin-top: 3%;
+  display: inline-block;
+  padding: 4px 10px;
+  margin-top:2.5%;
+  margin-bottom: 3px;
+  border-radius: 24px;
+  background: rgba(255,255,255,.2);
+
+}
+
+a{
+  text-decoration: none;
+  color:lightgray;
+}
+a:hover{
+  color: ghostwhite;
+}
+
+
+.subheader_logo{
+  width: 20%;
+  margin-left: 15%;
+
+
+}
+.subheader_logo img{
+  max-width: 50%;
+  position: relative;
+  bottom:20px;
+  left: 20px;
+
+}
+.burger{
+  width: 35px;
+  height:35px;
+  cursor: pointer;
+  background:linear-gradient(to bottom, ghostwhite 20%, transparent 21%, transparent 40%,
+  ghostwhite 41%, ghostwhite 60%, transparent 61%, transparent 80%, ghostwhite 81%);
+  border-radius: 8px;
+  position: relative;
+  right: 45px;
+  top: 20px;
+}
+
+.right_block{
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  left: 300%;
+  bottom:70px;
+}
+
+.item{
+  position: relative;
+  bottom:15px;
+  left: 30px;
+  color: lightgray;
+}
+
+
+.block{
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.row_bottom{
+ display: flex;
+ justify-content: space-around;
+}
+
+
+.container_bottom{
+  width: 100%;
+  background:ghostwhite;
+
+}
+.text_items{
+  color: grey;
+}
+
+.i-main{
+    margin-top: 30px;
+}
+
+
+.big-banner{
+    display:flex;
+    justify-content: center;
+   
+}
+
+span{
+  color: gray;
+
+}
+
+.img-wrap img {
+   border-radius:20px;
+}
+
+.products.item{
+  display: inline-block;
+  vertical-align: top;
+  width: 180px;
+  height:280px;
+  margin-right: calc((100% - 900px)/ 4.1);
+  margin-bottom: 32px;
+}
+
+.clothes{
+  width:180px;
+  height:380px;
+}
+
+.item{
+  width:100px;
+  height:100px;
+}
+
+.clothes img {
+  max-width:100%;
+}
+.good-brand{
+  position: relative;
+  top:30px;
+}
+
+.card{
+  width:200px;
+  height:250px;
+}
+
+.product{
+  width:60%;
+  display: flex;
+  justify-content:space-between;
+  margin-left: 20%;
+  
+}
+
+.product_2{
+  width:90%;
+  display: flex;
+  justify-content: space-around;
+}
+
+
+footer{
+  height: 300%;
+  background-color: indigo;
+  display:flex;
+  justify-content: space-around;
+}
+
+
+.inside{
+  width: 90%;
+  padding: 62px 30px 60px;
+  display: flex;
+  justify-content: space-around; 
+}
+
+.style{
+  list-style: none;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #fff;
+  display: inline-block;
+  margin: 0 0 12px;
+ 
+}
+
+span{
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #fff;
+  display: inline-block;
+  margin: 0 0 12px;
+}
+
+.item-footer{
+
+  display: inline-block;
+  margin: 0 12px;
+  vertical-align: top;
+
+}
+
+.mobile_site:hover{
+  border-bottom: 1px solid;
+}
+
+.follow{
+  margin-top: 2%;
+  color: gray;
+}
+
+.span{
+  margin: 0 -10px;
+}
+
+.vessel a{
+  color: #000;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  -webkit-transition: border-color .2s ease 0s;
+  transition: border-color .2s ease 0s;
+  border: 1px solid;
+  border-color: rgba(255,255,255,.28);
+  border-radius: 32px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  color: #fff;
+  display: block;
+  height: 48px;
+  padding: 10px 24px 12px;
+  font-weight: 600;
+}
+
+.under_block{
+  position: relative;
+  bottom:12px;
+  border-radius:20px;
+  background-color:ghostwhite;
+}
+
+.inside_block{
+  height: 300px;
+
+}
+
+.announcement{
+  position: relative;
+  top: 50px;
+  left: 225px;
+}
+
+.line{
+  position: relative;
+  top: 50px;
+  left: 225px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

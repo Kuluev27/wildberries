@@ -1,0 +1,407 @@
+*{
+      margin: 0%;
+      padding:0%;
+}
+body{
+ font-family:    system,-apple-system,BlinkMacSystemFont,'Segoe UI','Segoe WP',Roboto,Ubuntu,Oxygen,Cantarell,'Fira Sans','Helvetica Neue',Helvetica,'Lucida Grande','Droid Sans',Tahoma,'Microsoft Sans Serif',sans-serif;
+ background:ghostwhite;
+}
+
+header{
+    height:150px;
+    background: linear-gradient(to right,#cb11ab 0,#481173 100%) no-repeat;
+
+}
+
+.row{
+    width: 50%;
+}
+
+.header-top{
+    margin-left: 23%;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+
+}
+
+.text{    
+    margin-top: 3%;
+    
+}
+.text-other{
+    margin-top: 3%;
+    display: inline-block;
+    padding: 4px 10px;
+    margin-top:2.5%;
+    margin-bottom: 3px;
+    border-radius: 24px;
+    background: rgba(255,255,255,.2);
+  
+}
+
+a{
+    text-decoration: none;
+    color:lightgray;
+}
+a:hover{
+    color: ghostwhite;
+}
+
+
+.subheader_logo{
+    width: 20%;
+    margin-left: 15%;
+
+  
+}
+.subheader_logo img{
+    max-width: 50%;
+    position: relative;
+    bottom:20px;
+    left: 20px;
+
+}
+.burger{
+    width: 35px;
+    height:35px;
+    cursor: pointer;
+    background:linear-gradient(to bottom, ghostwhite 20%, transparent 21%, transparent 40%,
+    ghostwhite 41%, ghostwhite 60%, transparent 61%, transparent 80%, ghostwhite 81%);
+    border-radius: 8px;
+    position: relative;
+    right: 65px;
+    top: 20px;
+}
+
+.right_block{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    left: 300%;
+    bottom:70px;
+}
+
+.item{
+    position: relative;
+    bottom:15px;
+    left: 30px;
+
+}
+
+
+.block{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.row_bottom{
+   display: flex;
+   justify-content: space-around;
+}
+
+
+.container_bottom{
+    width: 100%;
+    background:ghostwhite;
+  
+}
+.text_items{
+    color: grey;
+}
+
+.text_items:hover{
+    color: black;
+    transition: 0.10s;
+}
+
+
+.header-bottom{
+    width: 80%;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.word{
+    width:50%;
+    margin-left: 11.5%;
+    margin-top: 1%;
+}
+
+.mini_block{
+    width: 75%;
+    height:450px;
+    margin-left: 11.5%;
+    margin-top: 2%;
+    border-radius: 50px;
+    background: linear-gradient(89.51deg, #E56B31 2.39%, #BE3690 99.79%)
+    
+}
+
+.text_words{
+    width: 50%;
+}
+
+.advertising{
+    height: 150px;
+    position: relative;
+    top: 40px;
+    left: 80px;
+    font-size: 42px;
+    line-height: 56px;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin: 0 0 44px;
+
+}
+
+.offers{
+    width: 70%;
+    height:30%;
+    display:flex;
+    justify-content: space-around;
+    position: relative;
+    left:20px;
+}
+
+.under_block{
+    width: 250px;
+    height: 20px;
+    font-size: 20px;
+    line-height: 28px;
+    color: #FFFFFF;
+    box-sizing: border-box;
+    padding-left: 62px;
+    position: relative;
+    top:50px;
+    margin-bottom: 24px;
+}
+
+.conditions{
+    font-family: system, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Segoe WP', Roboto, Ubuntu, Oxygen, Cantarell, 'Fira Sans', 'Helvetica Neue', Helvetica, 'Lucida Grande', 'Droid Sans', Tahoma, 'Microsoft Sans Serif', sans-serif;
+    line-height: 1.1;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    border-radius: 8px;
+    text-align: center;
+    cursor: pointer;
+    display: inline-block;
+    min-width: 244px;
+    letter-spacing: 0;
+    color: #ffffff;
+    background: rgba(255, 255, 255, 0.2);
+    font-size: 18px;
+    padding: 16px 25px 15px;
+    margin-top: 44px;
+    transition: background .3s ease;
+    position: relative;
+    left: 80px;
+}
+
+.img{
+    position: relative;
+    left: 350px;
+    bottom:150px;
+}
+
+.block_number{
+    width: 100%;
+}
+
+.number{
+   width:25% ;
+   height: 50%;
+   display: flex;
+   justify-content: center;
+   position: relative;
+   left: 10px;
+}
+.numbers{
+    position: relative;
+    left: 10px;
+}
+
+.big{
+    color: #000;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    margin-bottom: 20px;
+    font-size: 46px;
+    line-height: 61px;
+    margin-bottom: 6px;
+}
+
+.mini_item{
+    position: relative;
+    left: 215px;
+    color: gray;
+}
+
+
+.map{
+   
+    width: 50%;
+    height: auto;
+    position: relative;
+    left: 220px;
+    top: 40px;
+}
+h2{
+    color: #000;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    margin-bottom: 20px;
+}
+
+
+.addres{
+    width:150%;
+    height: 125%;
+    background:white;
+}
+
+.text-addres{
+    list-style: none;
+}
+.text-location{
+    color: grey;
+}
+
+.text-location:hover{
+    border: 5px solid;
+    transition: 0.5s;
+    color:gray;
+}
+
+
+footer{
+    margin-top: 8%;
+    background-color: indigo;
+    display:flex;
+    justify-content: space-around;
+}
+
+
+.inside{
+    width:90%;
+    padding: 62px 30px 60px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.style{
+    list-style: none;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #fff;
+    display: inline-block;
+    margin: 0 0 12px;
+   
+}
+
+span{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #fff;
+    display: inline-block;
+    margin: 0 0 12px;
+}
+
+.item-footer{
+    height: 50%;
+    display: inline-block;
+    margin: 0 12px;
+    vertical-align: top;
+}
+
+.mobile_site:hover{
+    border-bottom: 1px solid;
+}
+
+.nofollow{
+    color: gray;
+}
+
+
+.follow{
+    margin-top: 2%;
+    color: gray;
+  }
+
+  
+ 
+  
+  
+  
+  
+  .vessel a{
+    color: #000;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    -webkit-transition: border-color .2s ease 0s;
+    transition: border-color .2s ease 0s;
+    border: 1px solid;
+    border-color: rgba(255,255,255,.28);
+    border-radius: 32px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #fff;
+    display: block;
+    height: 48px;
+    padding: 10px 24px 12px;
+    font-weight: 600;
+  }
+  
+  .Information{
+    color: #fff;
+    margin: 0 auto 2px;
+    opacity: .6;
+    text-align: center;
+    width: 570px;
+  }
+  
+  .compatability-link{
+    border-bottom:1px solid;
+  }
+  
+  .cadillac{
+      background-color:indigo;
+  }
+    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
